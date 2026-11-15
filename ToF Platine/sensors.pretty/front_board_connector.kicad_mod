@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "caf14add-64b0-4ae0-af47-b62055c759b8")
+		(uuid "42fa4a7a-5b90-4c37-bbc3-4e50314b3fe1")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cdac3b1e-5676-40b7-b04c-34deac03ec81")
+		(uuid "49412a22-5be5-4f45-822e-cb8f553e9794")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79ef39af-a62e-4d03-83c2-7915cf001527")
+		(uuid "b113371c-29b5-480f-8d4a-29bcc9a54099")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8703719c-80e3-4a02-b132-7ab53ee0e3bd")
+		(uuid "e990d89f-e994-441d-91ad-4bdeeecf0cb5")
 		(effects
 			(font
 				(size 1 1)
@@ -325,4 +325,15 @@
 		(uuid "bfac7bb1-8f0a-43f8-b966-420e6b55a80b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/XH/B11B-XH-A.step"
+		(offset
+			(xyz -12.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
