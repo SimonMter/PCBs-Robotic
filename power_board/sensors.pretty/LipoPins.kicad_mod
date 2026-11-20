@@ -1,0 +1,97 @@
+(footprint "LipoPins"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a40ef04-9c2e-4471-81b3-fb8c635625f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LipoPins"
+		(at -7 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fcd6713-4c1e-4565-acc8-02da99baa9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d874885d-f455-4c0c-80f4-6041fc20e57a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82813d35-fd8b-4d02-996e-8bdafdee7614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.5 -3)
+		(end 1.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6dfa9be-282a-4233-9568-330b8031418a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.5 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1ee5d68-8063-40a9-b93e-05110816efce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad235c92-c9b7-4f7e-aaed-db1572fd397a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5945b033-770d-482a-8f02-372c93ea57a7")
+	)
+	(embedded_fonts no)
+)

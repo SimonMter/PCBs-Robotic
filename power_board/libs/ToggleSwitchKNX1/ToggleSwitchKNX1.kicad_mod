@@ -1,0 +1,245 @@
+(footprint "ToggleSwitchKNX1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.425 -4.915 0)
+		(layer "F.SilkS")
+		(uuid "43f3f5d6-4d2d-4b12-9020-3f6737b102d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_100SP1T1B1M1QEH"
+		(at 4.83 5.315 0)
+		(layer "F.Fab")
+		(uuid "ec396b1e-e67d-47ea-a2dd-516a39c9f106")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f71321c3-27f8-4a75-80c4-8bb005acb359")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d24640b6-0b5e-4016-8df2-0c3111553360")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.35 -3.43)
+		(end 6.35 -3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ada4c015-eb41-4fb1-8fc5-fb5481cc5e6d")
+	)
+	(fp_line
+		(start -6.35 3.43)
+		(end -6.35 -3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e576049-2246-4380-bec3-1cfe04fb9261")
+	)
+	(fp_line
+		(start 6.35 -3.43)
+		(end 6.35 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ca8f03b-972a-45a5-acab-51f221671217")
+	)
+	(fp_line
+		(start 6.35 3.43)
+		(end -6.35 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea6e6cbc-7251-4ff8-92f1-eeda1a706f8a")
+	)
+	(fp_circle
+		(center -4.7 4.1)
+		(end -4.6 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b914ad34-e68f-45fb-8f0c-0ea184083a32")
+	)
+	(fp_line
+		(start -6.6 -3.68)
+		(end -6.6 3.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d3e4abe-b658-441b-9e30-e5058e29d7cd")
+	)
+	(fp_line
+		(start -6.6 3.68)
+		(end 6.6 3.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d3561c2-ae97-412b-b202-5b5d7b70cacc")
+	)
+	(fp_line
+		(start 6.6 -3.68)
+		(end -6.6 -3.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34b739ec-bfb5-4980-8ac5-d0d30eb10740")
+	)
+	(fp_line
+		(start 6.6 3.68)
+		(end 6.6 -3.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ffb75eb-1977-434a-85a8-142bfa004fb3")
+	)
+	(fp_line
+		(start -6.35 -3.43)
+		(end 6.35 -3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47410105-6d52-46c3-b567-ed437395db9b")
+	)
+	(fp_line
+		(start -6.35 3.43)
+		(end -6.35 -3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d126ad1-8edd-4698-a904-e4ff5ea2e08f")
+	)
+	(fp_line
+		(start 6.35 -3.43)
+		(end 6.35 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bdf7cb61-41f8-4ac3-8483-8f7fb7457fc9")
+	)
+	(fp_line
+		(start 6.35 3.43)
+		(end -6.35 3.43)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2372e01-2422-4b61-a8a8-323075f9bda8")
+	)
+	(fp_circle
+		(center -4.7 4.1)
+		(end -4.6 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ced2a6d4-6594-4b0b-aa4d-96c52c80e677")
+	)
+	(pad "1" thru_hole oval
+		(at -4.5 0)
+		(size 2 3.84)
+		(drill oval 1.1 2.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9b8200a3-fb7b-4d1d-a26e-046f97fb340f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2 3.84)
+		(drill oval 1.1 2.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ff6472ef-1617-4bac-8223-bc7c97e2391b")
+	)
+	(pad "3" thru_hole oval
+		(at 4.5 0)
+		(size 2 3.84)
+		(drill oval 1.1 2.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7ee92452-74e5-49ba-a205-820f5a772615")
+	)
+	(embedded_fonts no)
+	(model "/home/jonas/Documents/KiCAD/Libraries/ToggleSwitchKNX1/ToggleSwitchKNX1.step"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/ToggleSwitchKNX1/ToggleSwitchKNX1.step"
+		(offset
+			(xyz 0 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
