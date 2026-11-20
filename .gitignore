@@ -1,1 +1,18 @@
+# VS Code / Local History
 **/.history/
+
+# Exclude RoboticPCB folder
+/RoboticPCB/
+
+# KiCad temporary, autosave, lock and backup files
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+*.lck
+~*
+*-save.kicad_pcb
+*-save.kicad_sch
+fp-info-cache
