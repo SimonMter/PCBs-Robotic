@@ -7,4 +7,6 @@
 	(lib (name "sensors") (type "KiCad") (uri "${KIPRJMOD}/libs/TSR_3-2450N/sensors.kicad_sym") (options "") (descr ""))
 	(lib (name "Teensy4-1") (type "KiCad") (uri "${KIPRJMOD}/libs/Teensy4-1/Teensy4-1.kicad_sym") (options "") (descr ""))
 	(lib (name "TEENSY_4.1") (type "KiCad") (uri "${KIPRJMOD}/libs/teensy/TEENSY_4.1.kicad_sym") (options "") (descr ""))
+	(lib (name "sensors_test") (type "KiCad") (uri "/home/simon/Documents/pcb_versioning/ToF Platine/sensors.kicad_sym") (options "") (descr "") (disabled) (hidden))
+	(lib (name "sensors_tof_back") (type "KiCad") (uri "/home/simon/Documents/pcb_versioning/ToF Platine Back/sensors.kicad_sym") (options "") (descr ""))
 )
