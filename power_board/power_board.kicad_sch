@@ -5973,16 +5973,6 @@
 		)
 		(uuid "5feb781a-c73b-4a01-8859-44e7d59b4cb7")
 	)
-	(text "ALLE FG_T Pins mit Interruptable pins??"
-		(exclude_from_sim no)
-		(at 303.53 219.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "760b9f7e-f7e6-4230-8172-f7ea7635a3d0")
-	)
 	(text "S13V25F"
 		(exclude_from_sim no)
 		(at 24.638 25.146 0)
@@ -7779,6 +7769,16 @@
 		)
 		(uuid "0f0dd5b9-174e-49fe-ac18-c973c6177bad")
 	)
+	(label "SDA"
+		(at 304.8 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13233031-6778-44ce-9d9f-9ec31e056c68")
+	)
 	(label "XSHUT10"
 		(at 285.75 46.99 180)
 		(effects
@@ -8308,6 +8308,16 @@
 			(justify right bottom)
 		)
 		(uuid "843ff2e2-1e24-46ef-8618-eada4fe79e30")
+	)
+	(label "SCL"
+		(at 304.8 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84fca71c-a55a-4880-9107-16bdf8f3c7e5")
 	)
 	(label "SCL"
 		(at 285.75 52.07 180)
@@ -16926,7 +16936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 266.3952 127 0)
 			(hide yes)
 			(show_name no)
